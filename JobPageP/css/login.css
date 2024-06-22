@@ -1,0 +1,45 @@
+.cont{
+    background: linear-gradient(318deg,  #7effff, #ff8b8b, #85ff85,#d772ff , #ff7fee);
+    background-size: 1000% 1000%;
+   -webkit-animation: Coolgradient 41s linear infinite;
+   -moz-animation: Coolgradient 41s linear infinite;
+   -o-animation: Coolgradient 41s linear infinite;
+   animation: Coolgradient 41s linear infinite;   
+   }
+   
+   @-webkit-keyframes Coolgradient {
+       0%{background-position:5% 0%}
+       50%{background-position:96% 100%}
+       100%{background-position:5% 0%}
+   }
+   @-moz-keyframes Coolgradient {
+       0%{background-position:5% 0%}
+       50%{background-position:96% 100%}
+       100%{background-position:5% 0%}
+   }
+   @-o-keyframes Coolgradient {
+       0%{background-position:5% 0%}
+       50%{background-position:96% 100%}
+       100%{background-position:5% 0%}
+   }
+   @keyframes Coolgradient { 
+       0%{background-position:5% 0%}
+       50%{background-position:96% 100%}
+       100%{background-position:5% 0%}
+   }
+
+.contLogin{
+    
+    padding: 10px 150px 10px 150px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, .3);
+    align-items: flex-start;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    -webkit-box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+    box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+
+}
+

@@ -1,0 +1,11 @@
+:root{
+    --fontDark:#333333;
+    --fontLight: #dddddd;
+    --bgMenu:#9fff9f;
+    --hover: #fdfdfd;
+    --bg: #d1f8ff;
+}
+
+.fontDark{color: var(--fontDark);}
+
+.bgDark{background-color: var(--fontDark);}

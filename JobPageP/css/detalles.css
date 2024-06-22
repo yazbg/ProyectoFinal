@@ -1,0 +1,26 @@
+.contDetalles{    
+    width: 60%;
+    gap: 50px;    
+    padding: 50px;
+    border-radius: 60px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    -webkit-box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+    box-shadow: 21px 15px 41px -11px rgba(0,0,0,0.75);
+
+}
+
+.detallesT{
+    gap: 100px;
+}
+
+.detallesB{
+    padding: 0px 100px 0px 100px;
+}
+
+.svgIconDetalles{
+    width: 100px;
+    border-radius: 50px;
+}

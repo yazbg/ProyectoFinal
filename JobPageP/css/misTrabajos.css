@@ -1,0 +1,17 @@
+.alertaEliminar{
+    position: absolute;
+    z-index: 100;
+    top: 0vh;
+    backdrop-filter: blur(5px);
+    background: #33333367;    
+}
+
+.contAlerta{
+    background: var(--bgMenu);
+    padding: 100px;
+    border-radius: 50px;    
+}
+
+.hidden{
+    display: none;
+}

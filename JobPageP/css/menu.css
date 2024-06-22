@@ -1,0 +1,83 @@
+.contMenuT {
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    background: var(--bgMenu);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.contMenuL {
+    position: relative;
+    top: 10vh;
+    height: 90vh;
+    width: 250px;
+    background: var(--bgMenu);
+    position: fixed;
+}
+
+.menuC,
+.menuR,
+.menuL {
+    height: 100%;
+}
+
+.menuL {
+    min-width: 250px;
+    width: 10%;
+}
+
+.menuR {
+    min-width: 100px;
+    margin-right: 50px;
+}
+
+.searchSvg {
+    width: 39px;
+    border: 1px solid var(--fontDark);
+    border-left: none;
+    border-radius: 0px;
+    cursor: pointer;
+    background: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search {
+    width: 350px;
+    height: 40px;
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid var(--fontDark);
+    border-right: none;
+    padding-left: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.logoutSvh {
+    width: 50px;
+    cursor: pointer;
+}
+
+.contMenuL > ul{
+    width: 100%;        
+}
+.contMenuL > ul > li{
+    width: 100%;    
+    height: 10vh;    
+    list-style: none;        
+}
+.MenuLA {
+    width: 100%;
+    height: 100%;   
+    text-decoration: none;   
+    justify-content: start; 
+    padding-left: 20px;
+    color: var(--fontDark);
+    transition: all .2s ;    
+}
+
+.MenuLA:hover{
+    background: var(--fontDark);
+    color: var(--hover);
+} 

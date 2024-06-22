@@ -1,0 +1,17 @@
+.svgIconMensaje{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.contMensajes{
+    height: 90vh;
+    padding-top: 10vh;
+    overflow: auto;
+}
+
+.mensajeItem{
+    background: var(--bgMenu);
+    padding: 10px 160px 10px 160px;
+    gap: 100px;
+    margin-top: 50px;
+}
